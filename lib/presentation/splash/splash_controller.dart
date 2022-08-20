@@ -31,7 +31,7 @@ class SplashController extends GetxController
   }
 
   Future<void> validateSession() async {
-    await Future.delayed(const Duration(milliseconds: 1000));
+    await Future.delayed(const Duration(milliseconds: 2000));
 
     // AQUI PODRIA VALIDAR SESION Y DIRECCIONAR A DONDE QUIERA
     Get.offAllNamed(MainRoutes.home);
